@@ -1,5 +1,5 @@
 # VisGuithon
-**VisGuithon** is a Visualization data software using `python` and gui Library name `PyImGui` [Page](https://github.com/pyimgui/pyimgui).\
+**VisGuithon** is **Data Visualize Graphice Interface By Python** [Page](https://github.com/pyimgui/pyimgui).\
 This project made for someone who want to visual data and it can be use in so manny purpose and you can learn some documentation about `PyImGui` at [Doc](https://pyimgui.readthedocs.io/en/latest/).
 
 ---
