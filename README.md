@@ -5,17 +5,7 @@ Architecture inspired by [ochisrj/VisGuithon](https://github.com/ochisrj/VisGuit
 
 ## Features
 
-| Feature | Details |
-|---|---|
-| **Line / Area** | Animated line charts with filled area option |
-| **Bar / Histogram** | Multi-series grouped bars with animated grow-in |
-| **Scatter / Bubble** | Scatter plots with optional bubble sizing |
-| **Pie / Donut** | Animated sweep-in with legend |
-| **Gauges** | Radial CPU / RAM gauges with color thresholds |
-| **Sparklines** | Compact inline history lines |
-| **CSV / Excel** | Load any CSV or XLSX; pick X + Y columns interactively |
-| **Live Stats** | Real-time CPU (total + per-core), RAM, Network, Disk I/O |
-| **Dark Theme** | Cyberpunk/industrial dark palette |
+FUCK YOU IT NOT FINISH 
 
 ## Setup
 
