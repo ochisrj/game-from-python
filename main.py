@@ -2,6 +2,7 @@
 import imgui
 import glfw
 import OpenGL.GL as gl
+import numpy
 from imgui.integrations.glfw import GlfwRenderer
 
 
@@ -21,11 +22,11 @@ def impl_glfw_init(window_name="minimal ImGui/GLFW3 example", width=1280, height
     window = glfw.create_window(int(width), int(height), window_name, None, None)
     glfw.make_context_current(window)
 
+
     if not window:
         glfw.terminate()
         print("Could not initialize Window")
         exit(1)
-
     return window
 
 
@@ -49,18 +50,23 @@ class GUI(object):
             self.impl.process_inputs()
             imgui.new_frame()
             imgui.begin("Custom window", True)
-
             imgui.text("Hello, world!")
-
+            
             if imgui.button("OK"):
                 print(f"String: {self.string}")
                 print(f"Float: {self.f}")
 
             _, self.string = imgui.input_text("A String", self.string, 256)
-
+                
             _, self.f = imgui.slider_float("float", self.f, 0.25, 1.5)
 
             imgui.show_test_window()
+            
+            imgui.begin("test on nvim")
+            imgui.text("test")
+            imgui.end() 
+
+            
 
             imgui.end()
 
