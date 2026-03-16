@@ -28,6 +28,8 @@ def impl_glfw_init(window_name="minimal ImGui/GLFW3 example", width=1280, height
         exit(1)
     return window
 
+    function_window = True
+    
 
 class GUI(object):
     def __init__(self):
@@ -49,19 +51,10 @@ class GUI(object):
             self.impl.process_inputs()
             imgui.new_frame()
             imgui.begin("Custom window", True)
-            imgui.text("Hello, world!")
-            
-            if imgui.button("OK"):
-                print(f"String: {self.string}")
-                print(f"Float: {self.f}")
-            
-            _, self.string = imgui.input_text("A String", self.string, 256)
-                
-            _, self.f = imgui.slider_float("float", self.f, 0.25, 1.5)
+            imgui.text("Hello, world!")            
 
-             
-            if imgui.button("Test print button"):
-                print("Esptein Fuck Nigger")
+            if imgui.button("Click Here"):
+                    print("Esptein Fuck Nigger")
             
        
             imgui.show_test_window()
