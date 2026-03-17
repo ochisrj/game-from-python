@@ -67,7 +67,8 @@ class GUI(object):
 
 
             imgui.set_window_position_labeled("Fix Window Position", 5 , 5)
-            imgui.begin("Fix Window Position")
+            imgui.begin("Fix Window Position",True,imgui.WINDOW_NO_RESIZE)
+            imgui.set_window_size(300,150)
             imgui.end()
             
 
