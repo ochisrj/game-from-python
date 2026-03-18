@@ -59,7 +59,7 @@ class GUI(object):
             imgui.button("Example ToolTip")
             if imgui.is_item_hovered():
                 imgui.set_tooltip("Hi this is ToolTip")
-            
+            imgui.text("tefda forgot i play game")            
 
             imgui.show_test_window()
             
