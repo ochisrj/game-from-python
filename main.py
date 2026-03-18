@@ -51,7 +51,7 @@ class GUI(object):
             self.impl.process_inputs()
             imgui.new_frame()
 
-            imgui.set_window_position_labeled("Custom window",5,100)
+            imgui.set_window_position_labeled("Custom window",5,105)
             imgui.begin("Custom window", True)
             imgui.text("Hello, world!")            
             if imgui.button("Click Here"):
