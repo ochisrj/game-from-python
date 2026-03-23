@@ -55,6 +55,7 @@ class GUI(object):
             imgui.begin("Custom window", True)
             imgui.text("Hello, world!")
             imgui.text("Bro I WANT TO PLAY MINECRAFT")
+            imgui.text("i am lazy maybe tomorrow bro")
             if imgui.button("Click Here"):
                     print("Esptein Fuck Nigger")
             imgui.button("Example ToolTip")
